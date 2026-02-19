@@ -42,7 +42,7 @@ pip install -r requirements.txt
 3. Run the training script (ensure your dataset path is correctly set in the script):
 
 ```Bash
-python main.py
+python why-face-fingerprint-fusion-fails.ipynb
 ```
 ## 💡 What's the Correct Approach?
 For completely uncorrelated multimodal biometric datasets like this, Score-Level Fusion or Decision-Level Fusion should be used instead of Feature-Level Fusion (Metric Learning).
