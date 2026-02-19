@@ -14,7 +14,6 @@ This project serves as a valuable **Negative Result** in Deep Learning and Compu
 After training the model for 15 epochs, the training loss decreased steadily, creating the illusion of learning. However, evaluating the distance distributions on an unseen test set revealed the truth:
 
 ![Distance Distribution Graph](graph_image.png)
-*(Note: Replace the link above with the actual image path once uploaded to GitHub)*
 
 ### Key Findings:
 1. **Complete Overlap:** The distance distribution of Positive Pairs (Same Person) and Negative Pairs (Different People) perfectly overlapped. The model possessed zero discriminative power.
